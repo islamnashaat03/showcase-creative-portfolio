@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "templateId": "creative-portfolio",
+  "templateVersion": "1.0.0",
+  "defaultLocale": "ar",
+  "locales": [
+    "ar",
+    "en"
+  ],
+  "kind": "showcase",
+  "name": {
+    "ar": "ليان مراد — بورتفوليو",
+    "en": "Layan Murad — Portfolio"
+  },
+  "industry": {
+    "ar": "بورتفوليو إبداعي",
+    "en": "Creative portfolio"
+  },
+  "capabilities": [
+    "project-filters",
+    "case-details",
+    "local-contact-form"
+  ],
+  "futureModules": [],
+  "palette": {
+    "primary": "#2c36a6",
+    "background": "#ffffff",
+    "accent": "#e98450"
+  },
+  "contentFiles": {
+    "ar": "theme-content/ar.json",
+    "en": "theme-content/en.json"
+  },
+  "editableFields": [
+    {
+      "path": "/brand",
+      "type": "text",
+      "default": "ليان مراد"
+    },
+    {
+      "path": "/brandLatin",
+      "type": "text",
+      "default": "Layan Murad"
+    },
+    {
+      "path": "/nav/0",
+      "type": "text",
+      "default": "الأعمال"
+    },
+    {
+      "path": "/nav/1",
+      "type": "text",
+      "default": "عني"
+    },
+    {
+      "path": "/nav/2",
+      "type": "text",
+      "default": "الخدمات"
+    },
+    {
+      "path": "/menu",
+      "type": "text",
+      "default": "فتح القائمة"
+    },
+    {
+      "path": "/close",
+      "type": "text",
+      "default": "إغلاق القائمة"
+    },
+    {
+      "path": "/contact",
+      "type": "text",
+      "default": "خلّينا نتكلم"
+    },
+    {
+      "path": "/title",
+      "type": "text",
+      "default": "أصمّم هويات تُرى،\nوتجارب تُحس."
+    },
+    {
+      "path": "/intro",
+      "type": "text",
+      "default": "أنا ليان، مصممة هويات وتجارب رقمية. أحوّل الأفكار إلى حضور واضح ومواقع سهلة الاستخدام."
+    },
+    {
+      "path": "/viewWork",
+      "type": "text",
+      "default": "شاهد الأعمال"
+    },
+    {
+      "path": "/aside",
+      "type": "text",
+      "default": "من الفكرة\nإلى آخر تفصيلة."
+    },
+    {
+      "path": "/worksTitle",
+      "type": "text",
+      "default": "أعمال مختارة"
+    },
+    {
+      "path": "/all",
+      "type": "text",
+      "default": "الكل"
+    },
+    {
+      "path": "/branding",
+      "type": "text",
+      "default": "هويات"
+    },
+    {
+      "path": "/web",
+      "type": "text",
+      "default": "مواقع"
+    },
+    {
+      "path": "/concept",
+      "type": "text",
+      "default": "مشروع تصوري"
+    },
+    {
+      "path": "/details",
+      "type": "text",
+      "default": "تفاصيل المشروع"
+    },
+    {
+      "path": "/projects/0/id",
+      "type": "text",
+      "default": "fieldday"
+    },
+    {
+      "path": "/projects/0/title",
+      "type": "text",
+      "default": "فيلد داي"
+    },
+    {
+      "path": "/projects/0/discipline",
+      "type": "text",
+      "default": "هوية وحملة بصرية"
+    },
+    {
+      "path": "/projects/0/category",
+      "type": "text",
+      "default": "branding"
+    },
+    {
+      "path": "/projects/0/image",
+      "type": "image",
+      "default": "fieldday.webp"
+    },
+    {
+      "path": "/projects/0/alt",
+      "type": "text",
+      "default": "ملصقان تصوريان لهوية فيلد داي على جدار حجري، بألوان الكريمي والوردي"
+    },
+    {
+      "path": "/projects/0/description",
+      "type": "text",
+      "default": "فكرة لعلامة غذائية تحتفي بالمكونات البسيطة. هوية مرحة تجمع الحروف الواضحة والتصوير الطبيعي ولونًا دافئًا."
+    },
+    {
+      "path": "/projects/0/challenge",
+      "type": "text",
+      "default": "كيف نحكي فكرة الغذاء الجيد بلغة قريبة من الناس؟"
+    },
+    {
+      "path": "/projects/0/approach",
+      "type": "text",
+      "default": "نظام بصري يجمع المساحات الهادئة، وتصوير المكونات، ورسائل قصيرة قابلة للتطبيق على التغليف والحملات."
+    },
+    {
+      "path": "/projects/1/id",
+      "type": "text",
+      "default": "velora"
+    },
+    {
+      "path": "/projects/1/title",
+      "type": "text",
+      "default": "فيلورا"
+    },
+    {
+      "path": "/projects/1/discipline",
+      "type": "text",
+      "default": "تصميم تجربة وموقع"
+    },
+    {
+      "path": "/projects/1/category",
+      "type": "text",
+      "default": "web"
+    },
+    {
+      "path": "/projects/1/image",
+      "type": "image",
+      "default": "velora.webp"
+    },
+    {
+      "path": "/projects/1/alt",
+      "type": "text",
+      "default": "معالجة بصرية تصورية لعلامة فيلورا"
+    },
+    {
+      "path": "/projects/1/description",
+      "type": "text",
+      "default": "استكشاف لحضور رقمي هادئ لعلامة عناية. ترتيب واضح للمحتوى ومسار قصير من التعرف على المنتج إلى استكشافه."
+    },
+    {
+      "path": "/projects/1/challenge",
+      "type": "text",
+      "default": "تحويل إحساس العلامة إلى تجربة تصفح بسيطة."
+    },
+    {
+      "path": "/projects/1/approach",
+      "type": "text",
+      "default": "بنية مرنة للصفحات، ومساحات واسعة للمنتج، وتسلسل بصري يوازن بين القصة والمعلومة."
+    },
+    {
+      "path": "/projects/2/id",
+      "type": "text",
+      "default": "nora"
+    },
+    {
+      "path": "/projects/2/title",
+      "type": "text",
+      "default": "نورا"
+    },
+    {
+      "path": "/projects/2/discipline",
+      "type": "text",
+      "default": "هوية بصرية"
+    },
+    {
+      "path": "/projects/2/category",
+      "type": "text",
+      "default": "branding"
+    },
+    {
+      "path": "/projects/2/image",
+      "type": "image",
+      "default": "nora.webp"
+    },
+    {
+      "path": "/projects/2/alt",
+      "type": "text",
+      "default": "مشهد تصوري لتطبيق هوية نورا على مواد مطبوعة"
+    },
+    {
+      "path": "/projects/2/description",
+      "type": "text",
+      "default": "دراسة لهوية شخصية واضحة ومرنة. تطبيقات تعطي مساحة للحروف والتفاصيل الصغيرة."
+    },
+    {
+      "path": "/projects/2/challenge",
+      "type": "text",
+      "default": "صناعة هوية لها حضور متماسك عبر الوسائط."
+    },
+    {
+      "path": "/projects/2/approach",
+      "type": "text",
+      "default": "مجموعة ألوان مركزة، وتكوينات مطبوعة قابلة للتوسع، ونبرة بصرية بسيطة يسهل تمييزها."
+    },
+    {
+      "path": "/aboutTitle",
+      "type": "text",
+      "default": "التصميم يبدأ بسؤال جيد."
+    },
+    {
+      "path": "/about/0",
+      "type": "text",
+      "default": "أبحث عن الفكرة التي تميّز كل مشروع، ثم أبني حولها لغة بصرية وتجربة واضحة."
+    },
+    {
+      "path": "/about/1",
+      "type": "text",
+      "default": "من الهوية إلى الموقع، أهتم بالصلة بين ما تقوله العلامة وما يعيشه الناس معها."
+    },
+    {
+      "path": "/principle",
+      "type": "text",
+      "default": "الوضوح\nقبل الزخرفة."
+    },
+    {
+      "path": "/servicesTitle",
+      "type": "text",
+      "default": "كيف أقدر أساعدك؟"
+    },
+    {
+      "path": "/services/0/title",
+      "type": "text",
+      "default": "هويات بصرية"
+    },
+    {
+      "path": "/services/0/description",
+      "type": "text",
+      "default": "بناء هوية تعكس جوهر علامتك وتمنحها حضورًا واضحًا ومتسقًا."
+    },
+    {
+      "path": "/services/1/title",
+      "type": "text",
+      "default": "تصميم مواقع"
+    },
+    {
+      "path": "/services/1/description",
+      "type": "text",
+      "default": "مواقع أنيقة وسهلة الاستخدام، تجمع بين الجمال والوظيفة."
+    },
+    {
+      "path": "/services/2/title",
+      "type": "text",
+      "default": "تجارب رقمية"
+    },
+    {
+      "path": "/services/2/description",
+      "type": "text",
+      "default": "تصميم تجارب رقمية مترابطة، من الفكرة إلى التفاعل."
+    },
+    {
+      "path": "/contactTitle",
+      "type": "text",
+      "default": "عندك فكرة؟ خلّينا نديها شكل."
+    },
+    {
+      "path": "/contactText",
+      "type": "text",
+      "default": "شارك فكرتك، ونرتّب أول خطوة."
+    },
+    {
+      "path": "/startConversation",
+      "type": "text",
+      "default": "ابدأ محادثة"
+    },
+    {
+      "path": "/email",
+      "type": "text",
+      "default": "hello@example.com"
+    },
+    {
+      "path": "/disclosure",
+      "type": "text",
+      "default": "تصميم استعراضي لشخصية افتراضية. الأعمال مشروعات تصورية."
+    },
+    {
+      "path": "/formTitle",
+      "type": "text",
+      "default": "احكي لي عن فكرتك"
+    },
+    {
+      "path": "/nameLabel",
+      "type": "text",
+      "default": "اسمك"
+    },
+    {
+      "path": "/emailLabel",
+      "type": "text",
+      "default": "البريد الإلكتروني"
+    },
+    {
+      "path": "/messageLabel",
+      "type": "text",
+      "default": "عن المشروع"
+    },
+    {
+      "path": "/submit",
+      "type": "text",
+      "default": "تجهيز الرسالة التجريبية"
+    },
+    {
+      "path": "/challengeLabel",
+      "type": "text",
+      "default": "الفكرة"
+    },
+    {
+      "path": "/approachLabel",
+      "type": "text",
+      "default": "المعالجة"
+    },
+    {
+      "path": "/caseNote",
+      "type": "text",
+      "default": "دراسة تصميم تصورية، وليست عملًا لعميل أو نتائج مشروع فعلي."
+    }
+  ],
+  "sections": [
+    {
+      "id": "folio-hero",
+      "enabled": true
+    },
+    {
+      "id": "folio-work",
+      "enabled": true
+    },
+    {
+      "id": "folio-about",
+      "enabled": true
+    },
+    {
+      "id": "folio-services",
+      "enabled": true
+    },
+    {
+      "id": "folio-contact",
+      "enabled": true
+    }
+  ],
+  "attribution": {
+    "type": "authored-demo",
+    "clientProject": false,
+    "author": "Islam Nashaat"
+  },
+  "mawqi": {
+    "status": "adapter-required",
+    "installed": false
+  },
+  "liveOrigin": "https://folio.islamnashaat.com"
+}
